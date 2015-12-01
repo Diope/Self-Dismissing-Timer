@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E274E0251C0D0FC100DAEC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274E0241C0D0FC100DAEC9B /* AppDelegate.swift */; };
+		E274E0271C0D0FC100DAEC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274E0261C0D0FC100DAEC9B /* ViewController.swift */; };
+		E274E02A1C0D0FC100DAEC9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E274E0281C0D0FC100DAEC9B /* Main.storyboard */; };
+		E274E02C1C0D0FC100DAEC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E274E02B1C0D0FC100DAEC9B /* Assets.xcassets */; };
+		E274E02F1C0D0FC100DAEC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E274E02D1C0D0FC100DAEC9B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E274E0211C0D0FC100DAEC9B /* Self Dismissing Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self Dismissing Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E274E0241C0D0FC100DAEC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E274E0261C0D0FC100DAEC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E274E0291C0D0FC100DAEC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E274E02B1C0D0FC100DAEC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E274E02E1C0D0FC100DAEC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E274E0301C0D0FC100DAEC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E274E01E1C0D0FC100DAEC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E274E0181C0D0FC100DAEC9B = {
+			isa = PBXGroup;
+			children = (
+				E274E0231C0D0FC100DAEC9B /* Self Dismissing Timer */,
+				E274E0221C0D0FC100DAEC9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E274E0221C0D0FC100DAEC9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E274E0211C0D0FC100DAEC9B /* Self Dismissing Timer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E274E0231C0D0FC100DAEC9B /* Self Dismissing Timer */ = {
+			isa = PBXGroup;
+			children = (
+				E274E0241C0D0FC100DAEC9B /* AppDelegate.swift */,
+				E274E0261C0D0FC100DAEC9B /* ViewController.swift */,
+				E274E0281C0D0FC100DAEC9B /* Main.storyboard */,
+				E274E02B1C0D0FC100DAEC9B /* Assets.xcassets */,
+				E274E02D1C0D0FC100DAEC9B /* LaunchScreen.storyboard */,
+				E274E0301C0D0FC100DAEC9B /* Info.plist */,
+			);
+			path = "Self Dismissing Timer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E274E0201C0D0FC100DAEC9B /* Self Dismissing Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E274E0331C0D0FC100DAEC9B /* Build configuration list for PBXNativeTarget "Self Dismissing Timer" */;
+			buildPhases = (
+				E274E01D1C0D0FC100DAEC9B /* Sources */,
+				E274E01E1C0D0FC100DAEC9B /* Frameworks */,
+				E274E01F1C0D0FC100DAEC9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Self Dismissing Timer";
+			productName = "Self Dismissing Timer";
+			productReference = E274E0211C0D0FC100DAEC9B /* Self Dismissing Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E274E0191C0D0FC100DAEC9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Dipet_Low;
+				TargetAttributes = {
+					E274E0201C0D0FC100DAEC9B = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = K5QU5PJWNB;
+					};
+				};
+			};
+			buildConfigurationList = E274E01C1C0D0FC100DAEC9B /* Build configuration list for PBXProject "Self Dismissing Timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E274E0181C0D0FC100DAEC9B;
+			productRefGroup = E274E0221C0D0FC100DAEC9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E274E0201C0D0FC100DAEC9B /* Self Dismissing Timer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E274E01F1C0D0FC100DAEC9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E274E02F1C0D0FC100DAEC9B /* LaunchScreen.storyboard in Resources */,
+				E274E02C1C0D0FC100DAEC9B /* Assets.xcassets in Resources */,
+				E274E02A1C0D0FC100DAEC9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E274E01D1C0D0FC100DAEC9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E274E0271C0D0FC100DAEC9B /* ViewController.swift in Sources */,
+				E274E0251C0D0FC100DAEC9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E274E0281C0D0FC100DAEC9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E274E0291C0D0FC100DAEC9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E274E02D1C0D0FC100DAEC9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E274E02E1C0D0FC100DAEC9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E274E0311C0D0FC100DAEC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E274E0321C0D0FC100DAEC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E274E0341C0D0FC100DAEC9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Self Dismissing Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dipet.Self-Dismissing-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E274E0351C0D0FC100DAEC9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Self Dismissing Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.dipet.Self-Dismissing-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E274E01C1C0D0FC100DAEC9B /* Build configuration list for PBXProject "Self Dismissing Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E274E0311C0D0FC100DAEC9B /* Debug */,
+				E274E0321C0D0FC100DAEC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E274E0331C0D0FC100DAEC9B /* Build configuration list for PBXNativeTarget "Self Dismissing Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E274E0341C0D0FC100DAEC9B /* Debug */,
+				E274E0351C0D0FC100DAEC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E274E0191C0D0FC100DAEC9B /* Project object */;
+}
